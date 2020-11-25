@@ -1,0 +1,28 @@
+{
+  "name": "sigma-drm-ios",
+  "version": "2.0.0",
+  "summary": "A short description of sigma-drm-ios",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sigmadrm/sigma-drm-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sao Nguyen": "thudo.sigmadrm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sigmadrm/sigma-drm-ios.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "include/*.h",
+  "public_header_files": "include/*.h",
+  "vendored_libraries": "lib/libSigmaDRM.a",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/sigma-drm-ios/include/**"
+  },
+  "static_framework": true
+}
