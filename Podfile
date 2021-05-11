@@ -3,6 +3,6 @@
 
 target 'sigma-drm-ios-sample' do
   use_frameworks!
-  pod 'sigma-drm-ios', :git => 'https://github.com/sigmadrm/sigma-drm-ios.git'
+  pod 'sigma-drm-ios', :git => 'https://github.com/sigmadrm/sigma-drm-ios.git', :branch => 'v1.1.0'
 
 end

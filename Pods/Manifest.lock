@@ -1,21 +1,22 @@
 PODS:
-  - sigma-drm-ios (2.0.0)
+  - sigma-drm-ios (1.1.0)
 
 DEPENDENCIES:
-  - sigma-drm-ios (from `https://github.com/sigmadrm/sigma-drm-ios.git`)
+  - sigma-drm-ios (from `https://github.com/sigmadrm/sigma-drm-ios.git`, branch `v1.1.0`)
 
 EXTERNAL SOURCES:
   sigma-drm-ios:
+    :branch: v1.1.0
     :git: https://github.com/sigmadrm/sigma-drm-ios.git
 
 CHECKOUT OPTIONS:
   sigma-drm-ios:
-    :commit: b1b85770aa712766284a1ba4cab929a97cb17851
+    :commit: 7a9f342a4e3db361ae4c1811b7428ad2c8772785
     :git: https://github.com/sigmadrm/sigma-drm-ios.git
 
 SPEC CHECKSUMS:
-  sigma-drm-ios: 7b5090c6aaf902b523e1e78f0406289b9d010c2e
+  sigma-drm-ios: 3ced234c28b68a163f1390b9d2a3a57903d17920
 
-PODFILE CHECKSUM: 0ec087bc7c8e3f45bd5a75e15f669bfc4ef1b2a7
+PODFILE CHECKSUM: ccd987482baa567a1607c0d8a013104316b79951
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.10.1

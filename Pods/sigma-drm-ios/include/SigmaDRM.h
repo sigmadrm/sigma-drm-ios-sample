@@ -19,18 +19,19 @@
     
 }
 @property(nonatomic, weak) id<SigmaDRMDelegate> delegate;
-@property(nonatomic, strong) NSString *sessionId;
 +(SigmaDRM *)getInstance;
 -(AVURLAsset *)assetWithUrl:(NSString *)url;
 -(AVURLAsset *)assset;
--(void)setAppId:(NSString *)appId;
--(NSString *)appId;
 -(void)setMerchantId:(NSString *)merchantId;
 -(NSString *)merchantId;
+-(void)setAppId:(NSString *)appId;
+-(NSString *)appId;
+-(void)setUserUid:(NSString *)userId;
+-(NSString *)userId;
+-(void)setSessionId:(NSString *)sessionId;
+-(NSString *)sessionId;
 -(void)setAuthToken:(NSString *)token;
 -(NSString *)authToken;
--(void)setSigmaUid:(NSString *)sigmaUid;
--(NSString *)sigmaUid;
 -(void)setDrmUrl:(NSArray *)drmList;
 -(NSArray *)drmList;
 

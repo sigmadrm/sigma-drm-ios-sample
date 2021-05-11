@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2EA448742E4AA1D0B31A16DD1D1FF160 /* Pods-sigma-drm-ios-sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F450A00FCD076BD5B823E77355BA55C /* Pods-sigma-drm-ios-sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		635B9D69FC6001D3AB58D31C1155321D /* Pods-sigma-drm-ios-sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1FF83FC95BFC08D75EE578F3101DC /* Pods-sigma-drm-ios-sample-dummy.m */; };
-		D7C3791589470FFF26F47AEA5A28FA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5777CBEC4CC0EE5C0A1D45565EAEB154 /* Pods-sigma-drm-ios-sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1FF83FC95BFC08D75EE578F3101DC /* Pods-sigma-drm-ios-sample-dummy.m */; };
+		973B28BAAB7E86C502FB151AAF98485F /* Pods-sigma-drm-ios-sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F450A00FCD076BD5B823E77355BA55C /* Pods-sigma-drm-ios-sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D82C2AAC1AA87678D5F5E1AC07F3110C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E5A4459172BFECF54EC7E8B5FD6292EB /* PBXContainerItemProxy */ = {
+		BAECF778AA656D44DBA8DA6469073542 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,28 +35,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026923F64F3B5AE3B715DFE9E65773DA /* libSigmaDRM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSigmaDRM.a; path = lib/libSigmaDRM.a; sourceTree = "<group>"; };
-		07D29668D2515DBCDB738F71DF3F8FCC /* sigma-drm-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "sigma-drm-ios.xcconfig"; sourceTree = "<group>"; };
 		1513FEAF49D3F7F5564A40CCF751B076 /* Pods-sigma-drm-ios-sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sigma-drm-ios-sample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		197E4E901FA83E94ABA20244B1076B9D /* Pods-sigma-drm-ios-sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sigma-drm-ios-sample.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F450A00FCD076BD5B823E77355BA55C /* Pods-sigma-drm-ios-sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sigma-drm-ios-sample-umbrella.h"; sourceTree = "<group>"; };
 		3FA7019E565D99E3BB3F043329A0EC63 /* Pods-sigma-drm-ios-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sigma-drm-ios-sample.release.xcconfig"; sourceTree = "<group>"; };
 		4279D4EF7C5BB83E3A03C093A3875EA1 /* Pods-sigma-drm-ios-sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sigma-drm-ios-sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CD61DC4425671813E067DB0E0AD17A8 /* SigmaDRM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SigmaDRM.h; path = include/SigmaDRM.h; sourceTree = "<group>"; };
+		5CF8E4608FA9D2D9E17919FB6ABFB586 /* libSigmaDRM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSigmaDRM.a; path = lib/libSigmaDRM.a; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A2A2C13D8282D7F7ACA5268752E698D /* Pods-sigma-drm-ios-sample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sigma-drm-ios-sample-Info.plist"; sourceTree = "<group>"; };
+		7E4D8ACD109C811F8F6754FD231BEADC /* sigma-drm-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "sigma-drm-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		9BF1FF83FC95BFC08D75EE578F3101DC /* Pods-sigma-drm-ios-sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sigma-drm-ios-sample-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB0CE3CE122BDC9942A611B0A5DD7D91 /* SigmaDRM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SigmaDRM.h; path = include/SigmaDRM.h; sourceTree = "<group>"; };
 		C88271598452153BDA884FD0F2EFA841 /* Pods_sigma_drm_ios_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sigma_drm_ios_sample.framework; path = "Pods-sigma-drm-ios-sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC9EFB40367FCD216069528696CE50F /* sigma-drm-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "sigma-drm-ios.release.xcconfig"; sourceTree = "<group>"; };
 		FC01E3F3B7A9D8B0E5CAD7A6FA6EDACA /* Pods-sigma-drm-ios-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sigma-drm-ios-sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		175A58C424B02FCC1B3A54592E7FB5D2 /* Frameworks */ = {
+		2BE854C3EDA20E4A78910713D926345A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C3791589470FFF26F47AEA5A28FA9B /* Foundation.framework in Frameworks */,
+				D82C2AAC1AA87678D5F5E1AC07F3110C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +80,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		073793A1F347BF7826E348D4F65604C9 /* Support Files */ = {
+		07D8E3CE38DB70512261D22E50197A26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07D29668D2515DBCDB738F71DF3F8FCC /* sigma-drm-ios.xcconfig */,
+				5CF8E4608FA9D2D9E17919FB6ABFB586 /* libSigmaDRM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		236D0C226EC3D04AB444C66F634D41C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E4D8ACD109C811F8F6754FD231BEADC /* sigma-drm-ios.debug.xcconfig */,
+				CFC9EFB40367FCD216069528696CE50F /* sigma-drm-ios.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/sigma-drm-ios";
@@ -91,28 +101,17 @@
 		2FECC420B5D23BA9DCCD8D89A6595483 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C0F7C7B69166CED4497C0AC70F4B19B /* sigma-drm-ios */,
+				AD0D2A9359F3D6ADC794260684F3019C /* sigma-drm-ios */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3461B7ECC1417E7B5F6FF776078C4E4E /* Frameworks */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				026923F64F3B5AE3B715DFE9E65773DA /* libSigmaDRM.a */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4C0F7C7B69166CED4497C0AC70F4B19B /* sigma-drm-ios */ = {
-			isa = PBXGroup;
-			children = (
-				BB0CE3CE122BDC9942A611B0A5DD7D91 /* SigmaDRM.h */,
-				3461B7ECC1417E7B5F6FF776078C4E4E /* Frameworks */,
-				073793A1F347BF7826E348D4F65604C9 /* Support Files */,
-			);
-			name = "sigma-drm-ios";
-			path = "sigma-drm-ios";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7603704D1117234613C78E1C0401A2D3 /* Pods-sigma-drm-ios-sample */ = {
@@ -131,12 +130,15 @@
 			path = "Target Support Files/Pods-sigma-drm-ios-sample";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		AD0D2A9359F3D6ADC794260684F3019C /* sigma-drm-ios */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				5CD61DC4425671813E067DB0E0AD17A8 /* SigmaDRM.h */,
+				07D8E3CE38DB70512261D22E50197A26 /* Frameworks */,
+				236D0C226EC3D04AB444C66F634D41C3 /* Support Files */,
 			);
-			name = iOS;
+			name = "sigma-drm-ios";
+			path = "sigma-drm-ios";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -153,7 +155,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,11 +163,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		499768E90938ECC3AC8D0E785E0D966F /* Headers */ = {
+		E7141840B95622B1A63BFFA3E5BF3197 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA448742E4AA1D0B31A16DD1D1FF160 /* Pods-sigma-drm-ios-sample-umbrella.h in Headers */,
+				973B28BAAB7E86C502FB151AAF98485F /* Pods-sigma-drm-ios-sample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,17 +176,17 @@
 /* Begin PBXNativeTarget section */
 		786D2B30AC4A1B1F07D93D0496383593 /* Pods-sigma-drm-ios-sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34FDA6BB9717C3FF4A1F90C40664F80F /* Build configuration list for PBXNativeTarget "Pods-sigma-drm-ios-sample" */;
+			buildConfigurationList = 6902F2466E32BB84E9234A2D95D6FB4E /* Build configuration list for PBXNativeTarget "Pods-sigma-drm-ios-sample" */;
 			buildPhases = (
-				499768E90938ECC3AC8D0E785E0D966F /* Headers */,
-				8EC56B49E6CCC89AD806A898BFECB369 /* Sources */,
-				175A58C424B02FCC1B3A54592E7FB5D2 /* Frameworks */,
-				51B9863BA115EE73FF41223C69356582 /* Resources */,
+				E7141840B95622B1A63BFFA3E5BF3197 /* Headers */,
+				BCD827B9B8BA172F07818CCF5D13E193 /* Sources */,
+				2BE854C3EDA20E4A78910713D926345A /* Frameworks */,
+				B1888FB8F0B21DB15DB35FB810DB2ED4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2EF7F9F96C93DCB12E61BEDED0F191D2 /* PBXTargetDependency */,
+				3CDE14EEFEE8C65B9B500E0A607F69A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-sigma-drm-ios-sample";
 			productName = "Pods-sigma-drm-ios-sample";
@@ -220,7 +222,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		51B9863BA115EE73FF41223C69356582 /* Resources */ = {
+		B1888FB8F0B21DB15DB35FB810DB2ED4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,48 +232,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8EC56B49E6CCC89AD806A898BFECB369 /* Sources */ = {
+		BCD827B9B8BA172F07818CCF5D13E193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635B9D69FC6001D3AB58D31C1155321D /* Pods-sigma-drm-ios-sample-dummy.m in Sources */,
+				5777CBEC4CC0EE5C0A1D45565EAEB154 /* Pods-sigma-drm-ios-sample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2EF7F9F96C93DCB12E61BEDED0F191D2 /* PBXTargetDependency */ = {
+		3CDE14EEFEE8C65B9B500E0A607F69A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "sigma-drm-ios";
 			target = CC41162447052CCCD07E81D000C85A16 /* sigma-drm-ios */;
-			targetProxy = E5A4459172BFECF54EC7E8B5FD6292EB /* PBXContainerItemProxy */;
+			targetProxy = BAECF778AA656D44DBA8DA6469073542 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C3EA707352E27BD83E137C37D5880BC /* Debug */ = {
+		521245B90782156C61AF55855BB4BAA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07D29668D2515DBCDB738F71DF3F8FCC /* sigma-drm-ios.xcconfig */;
+			baseConfigurationReference = CFC9EFB40367FCD216069528696CE50F /* sigma-drm-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2FA1412DC1AE67D251E85899BBFBCE00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07D29668D2515DBCDB738F71DF3F8FCC /* sigma-drm-ios.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -283,47 +269,11 @@
 			};
 			name = Release;
 		};
-		4109D6AA56E92C2E005580E99A7C61AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC01E3F3B7A9D8B0E5CAD7A6FA6EDACA /* Pods-sigma-drm-ios-sample.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sigma-drm-ios-sample/Pods-sigma-drm-ios-sample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sigma-drm-ios-sample/Pods-sigma-drm-ios-sample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -346,6 +296,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -380,10 +331,63 @@
 			};
 			name = Release;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		923A11DE6195248260C675AC705F4E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4D8ACD109C811F8F6754FD231BEADC /* sigma-drm-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D071A9DF73E76A8F11AC93F1E1F5EA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC01E3F3B7A9D8B0E5CAD7A6FA6EDACA /* Pods-sigma-drm-ios-sample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sigma-drm-ios-sample/Pods-sigma-drm-ios-sample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sigma-drm-ios-sample/Pods-sigma-drm-ios-sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -406,6 +410,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -444,12 +449,11 @@
 			};
 			name = Debug;
 		};
-		C53A1488684A29626A8B840C4677A036 /* Release */ = {
+		F5C6FBC3DE784B29952B767364A3EE20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FA7019E565D99E3BB3F043329A0EC63 /* Pods-sigma-drm-ios-sample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -488,17 +492,8 @@
 		042AB9CF3093694689EBC3C7173467B9 /* Build configuration list for PBXAggregateTarget "sigma-drm-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C3EA707352E27BD83E137C37D5880BC /* Debug */,
-				2FA1412DC1AE67D251E85899BBFBCE00 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		34FDA6BB9717C3FF4A1F90C40664F80F /* Build configuration list for PBXNativeTarget "Pods-sigma-drm-ios-sample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4109D6AA56E92C2E005580E99A7C61AD /* Debug */,
-				C53A1488684A29626A8B840C4677A036 /* Release */,
+				923A11DE6195248260C675AC705F4E67 /* Debug */,
+				521245B90782156C61AF55855BB4BAA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -506,8 +501,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6902F2466E32BB84E9234A2D95D6FB4E /* Build configuration list for PBXNativeTarget "Pods-sigma-drm-ios-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D071A9DF73E76A8F11AC93F1E1F5EA43 /* Debug */,
+				F5C6FBC3DE784B29952B767364A3EE20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

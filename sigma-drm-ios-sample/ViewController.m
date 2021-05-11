@@ -34,13 +34,13 @@
 }
 -(NSURL *)setupSigma
 {
-    [[SigmaDRM getInstance] setAppId:@"RedTV"];
-    [[SigmaDRM getInstance] setMerchantId:@"sctv"];
-    [[SigmaDRM getInstance] setSessionId:@"iphone5s"];
-    [[SigmaDRM getInstance] setSigmaUid:@"demo-iphone-5s-user"];
+    [[SigmaDRM getInstance] setMerchantId:@"vtvcabon2"];
+    [[SigmaDRM getInstance] setAppId:@"vtvcabon"];
+    [[SigmaDRM getInstance] setSessionId:@"iphone6s-session-id"];
+    [[SigmaDRM getInstance] setUserUid:@"demo-iphone-6s-user"];
     [[SigmaDRM getInstance] setDelegate:self];
     
-    NSURL *URL = [NSURL URLWithString:@"http://123.30.235.196:5535/live_staging/vtv1_720.stream/playlist.m3u8"];
+    NSURL *URL = [NSURL URLWithString:@"http://sdrm-test.gviet.vn/public/vtv1.m3u8"];
     return URL;
 }
 - (void) setURL:(NSURL*)URL
